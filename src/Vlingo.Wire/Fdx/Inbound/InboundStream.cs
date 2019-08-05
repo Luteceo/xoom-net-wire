@@ -6,6 +6,7 @@
 // one at https://mozilla.org/MPL/2.0/.
 
 using Vlingo.Actors;
+using Vlingo.Wire.Fdx.Inbound.Tcp;
 using Vlingo.Wire.Node;
 
 namespace Vlingo.Wire.Fdx.Inbound

@@ -12,7 +12,7 @@ using System.Threading;
 using Vlingo.Actors;
 using Vlingo.Wire.Channel;
 
-namespace Vlingo.Wire.Fdx.Outbound
+namespace Vlingo.Wire.Fdx.Outbound.Tcp
 {
     using Node;
     

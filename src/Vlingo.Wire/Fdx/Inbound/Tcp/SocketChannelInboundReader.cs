@@ -14,7 +14,7 @@ using Vlingo.Actors;
 using Vlingo.Wire.Channel;
 using Vlingo.Wire.Message;
 
-namespace Vlingo.Wire.Fdx.Inbound
+namespace Vlingo.Wire.Fdx.Inbound.Tcp
 {
     public class SocketChannelInboundReader: ChannelMessageDispatcher, IChannelReader, IDisposable
     {

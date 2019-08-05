@@ -11,17 +11,17 @@ using System.Linq;
 using Vlingo.Actors.Plugin.Logging.Console;
 using Vlingo.Actors.TestKit;
 using Vlingo.Wire.Channel;
-using Vlingo.Wire.Fdx.Inbound;
-using Vlingo.Wire.Fdx.Outbound;
+using Vlingo.Wire.Fdx.Inbound.Tcp;
+using Vlingo.Wire.Fdx.Outbound.Tcp;
 using Vlingo.Wire.Message;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace Vlingo.Wire.Tests.Fdx.Inbound
+namespace Vlingo.Wire.Tests.Fdx.Inbound.Tcp
 {
     using Vlingo.Wire.Node;
     
-    public class InboundSocketChannelTest: IDisposable
+    public class SocketInboundSocketChannelTest: IDisposable
     {
         private const string AppMessage = "APP TEST ";
         private const string OpMessage = "OP TEST ";
@@ -101,7 +101,7 @@ namespace Vlingo.Wire.Tests.Fdx.Inbound
             Assert.Equal(message2, consumer.Messages.Last());
         }
 
-        public InboundSocketChannelTest(ITestOutputHelper output)
+        public SocketInboundSocketChannelTest(ITestOutputHelper output)
         {
             var converter = new Converter(output);
             Console.SetOut(converter);

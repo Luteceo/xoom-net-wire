@@ -11,14 +11,14 @@ using System.Linq;
 using Vlingo.Actors.Plugin.Logging.Console;
 using Vlingo.Actors.TestKit;
 using Vlingo.Wire.Channel;
-using Vlingo.Wire.Fdx.Inbound;
-using Vlingo.Wire.Fdx.Outbound;
+using Vlingo.Wire.Fdx.Inbound.Tcp;
+using Vlingo.Wire.Fdx.Outbound.Tcp;
 using Vlingo.Wire.Message;
 using Vlingo.Wire.Tests.Message;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace Vlingo.Wire.Tests.Fdx.Outbound
+namespace Vlingo.Wire.Tests.Fdx.Outbound.Tcp
 {
     using Vlingo.Wire.Node;
     

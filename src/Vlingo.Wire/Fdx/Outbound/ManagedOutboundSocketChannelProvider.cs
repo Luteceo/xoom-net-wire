@@ -6,6 +6,7 @@
 // one at https://mozilla.org/MPL/2.0/.
 
 using System.Collections.Generic;
+using Vlingo.Wire.Fdx.Outbound.Tcp;
 
 namespace Vlingo.Wire.Fdx.Outbound
 {

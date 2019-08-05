@@ -11,7 +11,7 @@ using System.Linq;
 using Vlingo.Actors.Plugin.Logging.Console;
 using Vlingo.Actors.TestKit;
 using Vlingo.Wire.Channel;
-using Vlingo.Wire.Fdx.Inbound;
+using Vlingo.Wire.Fdx.Inbound.Tcp;
 using Vlingo.Wire.Message;
 using Xunit;
 using Xunit.Abstractions;
